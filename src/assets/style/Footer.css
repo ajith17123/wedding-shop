@@ -1,0 +1,104 @@
+.foot-sec {
+    background-color: #2a1808;
+    color: #fffaf5;
+    border-top: 4px solid #f2c94c;
+    font-family: 'Poppins', sans-serif;
+}
+.foot-title {
+    color: #f2c94c;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.95rem;
+    margin-bottom: 25px;
+    letter-spacing: 1.2px;
+}
+.foot-text {
+    list-style: none;
+    padding: 0;
+}
+.foot-list {
+    margin-bottom: 12px;
+    font-size: 0.9rem;
+    color: rgba(255, 250, 245, 0.75);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: capitalize;
+}
+.foot-list:hover {
+    color: #f2c94c;
+    padding-left: 8px;
+}
+.form-search {
+    background-color: rgba(255, 255, 255, 0.05) !important;
+    border: 1px solid rgba(242, 201, 76, 0.3) !important;
+    border-radius: 5px;
+    color: #fff !important;
+    margin-bottom: 12px;
+}
+.foot-but {
+    background-color: #f2c94c;
+    color: #2a1808;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 100%;
+    font-size: 0.85rem;
+    transition: 0.3s ease;
+}
+.foot-but:hover {
+    background-color: #ffffff;
+}
+.payment {
+    margin-top: 30px;
+}
+.foot-para {
+    color: #fffaf5;
+    font-weight: 600;
+    font-size: 0.85rem;
+    margin-bottom: 15px;
+}
+.pay-butt {
+    background-color: transparent;
+    color: #f2c94c;
+    border: 1px solid rgba(242, 201, 76, 0.5);
+    padding: 4px 12px;
+    margin-right: 8px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    transition: 0.3s;
+}
+.pay-butt:hover {
+    background-color: #f2c94c;
+    color: #2a1808;
+}
+hr {
+    border-top: 1px solid rgba(242, 201, 76, 0.2);
+    margin: 40px 0 20px;
+}
+.foot-bottom {
+    padding-bottom: 10px;
+}
+.foot-copy {
+    font-size: 0.85rem;
+    color: rgba(255, 250, 245, 0.6);
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .foot-sec {
+        text-align: center;
+    }  
+    .foot-list:hover {
+        padding-left: 0;
+    }
+    .col-md-2, .col-md-3 {
+        margin-bottom: 40px;
+    }
+    .nav-search-bar {
+        margin-top: 15px;
+    }
+}

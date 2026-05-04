@@ -1,0 +1,242 @@
+/* {herosection} */
+
+.hero-sec {
+    background-color: #fffaf5;
+    padding: 60px 0;
+    overflow: hidden;
+}
+.hero-image {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-img {
+    border-radius: 20px;
+    transition: transform 0.5s ease;
+    max-height: 550px;
+    object-fit: cover;
+}
+.hero-img:hover {
+    transform: scale(1.02);
+}
+
+@media (max-width: 768px) {
+    .hero-sec {
+        padding: 30px 0;
+    }
+    .hero-img {
+        max-height: 400px;
+        width: 100%;
+    }    
+}
+
+/* {productsection} */
+
+.section-title {
+    color: #2a1808;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    position: relative;
+    padding-bottom: 10px;
+}
+.product-card {
+    background: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: 0.4s all ease;
+    border: 1px solid rgba(0,0,0,0.05);
+    height: 100%;
+}
+.product-card:hover {
+    transform: translateY(-10px);
+}
+.product-img-box {
+    height: 380px;
+    overflow: hidden;
+    position: relative;
+}
+.product-img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    transition: 0.6s ease;
+}
+.product-card:hover .product-img-box img {
+    transform: scale(1.1);
+}
+.prod-name {
+    font-weight: 700;
+    color: #2a1808;
+    margin-bottom: 8px;
+    font-size: 1.1rem;
+}
+.prod-para {
+    min-height: 40px;
+    line-height: 1.4;
+}
+.price-box {
+    margin: 15px 0;
+}
+.old-price {
+    color: #999;
+    font-size: 0.9rem;
+}
+.new-price {
+    color: #2a1808;
+    font-size: 1.2rem;
+}
+.btn-buy {
+    border: 2px solid #2a1808;
+    color: #2a1808;
+    border-radius: 30px;
+    font-weight: 700;
+    width: 100%;
+    transition: 0.3s;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+.btn-buy:hover {
+    background-color: #2a1808;
+    color: #f2c94c;
+}
+
+/* {postersection} */
+
+.pos-img {
+    width: 100%;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.poster-img {
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+/* {offersection} */
+
+.offer-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.offer-img {
+    transition: 0.5s ease;
+    width: 100%;
+}
+.offer-card:hover .offer-img {
+    transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    .section-title {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .product-img-box {
+        height: 300px;
+    }
+}
+
+/* {aboutsection} */
+
+.about-sec {
+    background-color: #fffaf5;
+    overflow: hidden;
+}
+.about-t {
+    max-width: 800px;
+    margin: 0 auto 30px;
+}
+.about-para {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #4a3728; 
+    font-style: italic;
+}
+.about-but {
+    display: block;
+    margin: 0 auto;
+    background-color: #2a1808;
+    color: #f2c94c;
+    border: 2px solid #2a1808;
+    padding: 12px 35px;
+    border-radius: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    font-size: 0.9rem;
+}
+.about-but:hover {
+    background-color: transparent;
+    color: #2a1808;
+    transform: translateY(-3px);
+}
+
+@media (max-width: 768px) {
+    .about-para {
+        font-size: 1rem;
+        padding: 0 15px;
+    }
+    .about-but {
+        width: 80%;
+    }
+}
+
+/* {statsection} */
+
+.stat-sec {
+    background-color: #fffaf5;
+}
+.s-icon-box {
+    padding: 20px;
+    transition: 0.3s;
+}
+.s-icon {
+    width: 80px;
+    height: 80px;
+    background-color: #2a1808; 
+    color: #f2c94c;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 0 auto;
+    transition: 0.4s;
+    border: 2px solid transparent;
+}
+.s-icon-box:hover .s-icon {
+    background-color: transparent;
+    color: #2a1808;
+}
+.stat-title {
+    color: #2a1808;
+    font-weight: 700;
+    margin-top: 15px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+}
+.stat-text {
+    color: #666;
+    font-size: 0.8rem;
+    margin-bottom: 0;
+}
+
+@media (max-width: 576px) {
+    .s-icon {
+        width: 60px;
+        height: 60px;
+        font-size: 1.5rem;
+    }
+    .stat-title {
+        font-size: 0.8rem;
+    }
+}
+
+

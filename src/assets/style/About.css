@@ -1,0 +1,107 @@
+.about-sec {
+    background-color: #ffffff;
+}
+.sec-title {
+    color: #2a1808;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 50px;
+    position: relative;
+}
+.side-img {
+    height: 380px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    transition: transform 0.4s ease;
+}
+.side-img:hover {
+    transform: translateY(-10px);
+}
+.about-para {
+    font-size: 1.15rem;
+    line-height: 1.9;
+    color: #4a3728;
+    font-style: italic;
+    padding: 0 20px;
+}
+.faqsection {
+    background-color: #fcf6f0;
+}
+.faqsection .accordion {
+    max-width: 850px;
+    margin: 0 auto;
+}
+.faqsection .accordion-item {
+    border: none;
+    margin-bottom: 15px;
+    background: transparent;
+}
+.faqsection .accordion-button {
+    background-color: #ffffff;
+    color: #2a1808;
+    font-weight: 600;
+    padding: 20px;
+    border-radius: 10px !important;
+    border: 1px solid #eee;
+}
+.faqsection .accordion-body {
+    background-color: #ffffff;
+    color: #555;
+    line-height: 1.7;
+    border: 1px solid #eee;
+    border-top: none;
+    padding: 20px 25px;
+}
+
+
+.cont-sec {
+    background-color: #ffffff;
+}
+.c-card {
+    background: #fff;
+    border-radius: 20px;
+    text-align: center;
+    transition: all 0.4s;
+    border: 1px solid #f1f1f1;
+    cursor: pointer;
+}
+.c-card h5 {
+    font-weight: 700;
+    color: #2a1808;
+}
+.c-card p {
+    color: #777;
+    font-size: 0.9rem;
+}
+.c-card:hover {
+    transform: scale(1.05);
+    background-color: transparent;
+}
+
+.map-sec {
+    padding-bottom: 0 !important;
+    line-height: 0;
+}
+.map-sec iframe {
+    filter: grayscale(10%) contrast(110%);
+}
+
+@media (max-width: 768px) {
+    .side-img {
+        height: 250px;
+        margin-bottom: 20px;
+    }
+    .about-para {
+        font-size: 1rem;
+        margin-bottom: 30px;
+    }
+    .sec-title {
+        font-size: 1.8rem;
+    }
+}
+
+
+
